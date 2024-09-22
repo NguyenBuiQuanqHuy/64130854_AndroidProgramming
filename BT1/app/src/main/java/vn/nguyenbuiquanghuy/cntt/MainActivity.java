@@ -1,6 +1,9 @@
 package vn.nguyenbuiquanghuy.cntt;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -33,5 +36,19 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
-
+    public void Hello(View v){
+        //Tìm điều khiển
+        EditText Sothunhat= findViewById(R.id.edtNum1);
+        EditText Sothuhai= findViewById(R.id.edtNum2);
+        //Lấy dữ liệu(getter)
+        String s1=Sothunhat.getText().toString();
+        String s2=Sothuhai.getText().toString();
+        //Chuyển kiểu
+        int num1= Integer.parseInt(s1);
+        int num2=Integer.parseInt(s2);
+        int sum=num1+num2;
+        //Xuất kết quả'
+        String tong="Tổng là"+ String.valueOf(sum);
+        Toast.makeText(this,tong,Toast.LENGTH_SHORT).show();
+    }
 }
