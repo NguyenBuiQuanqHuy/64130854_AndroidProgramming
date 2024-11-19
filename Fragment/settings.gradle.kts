@@ -19,7 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "GameTracNghiem"
-include(":app")
+rootProject.name = "Fragment"
 include(":app")
  

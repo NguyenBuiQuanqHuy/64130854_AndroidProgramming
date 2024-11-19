@@ -19,7 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "GameTracNghiem"
+rootProject.name = "FinalProject_64130854"
 include(":app")
-include(":app")
- 
