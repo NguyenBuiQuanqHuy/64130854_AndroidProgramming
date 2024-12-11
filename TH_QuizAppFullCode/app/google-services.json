@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "222463595694",
+    "project_id": "thquizappfullcode",
+    "storage_bucket": "thquizappfullcode.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222463595694:android:eb248e47c8825e857a093f",
+        "android_client_info": {
+          "package_name": "th.nguyenbuiquanghuy.th_quizappfullcode"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKe9vokeRGgRJDsY_CfQNs0FO0M1rsC24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
