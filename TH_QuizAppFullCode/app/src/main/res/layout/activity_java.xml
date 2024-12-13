@@ -32,6 +32,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+            android:id="@+id/tvQues"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
@@ -54,10 +55,11 @@
         app:layout_constraintTop_toBottomOf="@+id/cardViewQuestion">
 
         <TextView
+            android:id="@+id/tvA"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="20dp"
             android:gravity="center_vertical"
+            android:paddingLeft="20dp"
             android:text="A"
             android:textSize="30sp" />
     </androidx.cardview.widget.CardView>
@@ -77,10 +79,11 @@
         app:layout_constraintTop_toBottomOf="@+id/cardViewA">
 
         <TextView
+            android:id="@+id/tvB"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="20dp"
             android:gravity="center_vertical"
+            android:paddingLeft="20dp"
             android:text="B"
             android:textSize="30sp" />
     </androidx.cardview.widget.CardView>
@@ -100,10 +103,11 @@
         app:layout_constraintTop_toBottomOf="@+id/cardViewB">
 
         <TextView
+            android:id="@+id/tvC"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="20dp"
             android:gravity="center_vertical"
+            android:paddingLeft="20dp"
             android:text="C"
             android:textSize="30sp" />
     </androidx.cardview.widget.CardView>
@@ -123,16 +127,17 @@
         app:layout_constraintTop_toBottomOf="@+id/cardViewC">
 
         <TextView
+            android:id="@+id/tvD"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="20dp"
             android:gravity="center_vertical"
+            android:paddingLeft="20dp"
             android:text="D"
             android:textSize="30sp" />
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnNext"
         android:layout_width="134dp"
         android:layout_height="47dp"
         android:backgroundTint="@color/button_purple"
